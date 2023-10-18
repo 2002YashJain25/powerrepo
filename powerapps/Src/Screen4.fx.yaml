@@ -1,0 +1,17 @@
+Screen4 As screen:
+
+    TextInput3 As text:
+        Default: ="Text input"
+        Height: =90
+        Width: =517
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+    Button1 As button:
+        DisplayMode: =If(TextInput3.Text=User().Email,DisplayMode.Edit,DisplayMode.Disabled)
+        Text: ="Button"
+        X: =168
+        Y: =256
+        ZIndex: =2
+

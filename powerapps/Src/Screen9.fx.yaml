@@ -1,0 +1,9 @@
+Screen9 As screen:
+
+    Timer1 As timer:
+        Height: =70
+        Width: =437
+        X: =40
+        Y: =40
+        ZIndex: =1
+

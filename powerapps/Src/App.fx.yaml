@@ -1,0 +1,14 @@
+App As appinfo:
+    BackEnabled: =true
+    OnStart: |-
+        =Set(varUserInfo, Office365Users.MyProfileV2());
+        Collect( IceCream, {Title: "Pistachio" } )
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+

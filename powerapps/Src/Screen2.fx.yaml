@@ -1,0 +1,20 @@
+Screen2 As screen:
+
+    Button2 As button:
+        Height: =100
+        OnSelect: =Navigate(Screen3,ScreenTransition.Fade)
+        Text: ="NEXT"
+        Width: =335
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+    Button3 As button:
+        Height: =100
+        OnSelect: =Navigate(Screen1)
+        Text: ="BACK"
+        Width: =325
+        X: =637
+        Y: =40
+        ZIndex: =2
+

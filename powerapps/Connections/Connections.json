@@ -1,0 +1,77 @@
+{
+  "51dd888a-ded5-4de2-a920-f2ce14165d4e": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1659/1.0.1659.3460/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Outlook"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "51dd888a-ded5-4de2-a920-f2ce14165d4e"
+  },
+  "955d17b8-bad7-4f4e-bfb9-86ee3f672eeb": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/henryorsborn/partial-builds/asev3migrations-with-resourceTemplate/1.0.1653.3414/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://xebiagroup.sharepoint.com/sites/myfirstsites": {
+        "dataSources": {
+          "FlooringEstimates": {
+            "tableName": "c5bc9b80-563b-481b-83a8-bc20310f7430"
+          },
+          "Screen": {
+            "tableName": "6a45ac34-7a55-4620-b5fd-692ef9203a76"
+          },
+          "shape-data-learn": {
+            "tableName": "fe8274a1-4551-464d-93b4-a97692cd4c95"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Screen",
+      "shape-data-learn",
+      "FlooringEstimates"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "955d17b8-bad7-4f4e-bfb9-86ee3f672eeb"
+  },
+  "b65b85a7-2394-4650-b885-dda2b1df4b0c": {
+    "appActions": [
+      "MyProfile_V2"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Users",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1659/1.0.1659.3460/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "b65b85a7-2394-4650-b885-dda2b1df4b0c"
+  }
+}
