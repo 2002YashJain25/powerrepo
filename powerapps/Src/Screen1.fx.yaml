@@ -127,3 +127,9 @@ Screen1 As screen:
             Width: =4
             ZIndex: =6
 
+    Label2 As label:
+        Text: ="rohit looks smart "
+        X: =380
+        Y: =526
+        ZIndex: =7
+
